@@ -1,0 +1,66 @@
+body {
+    height: 250vh;
+    font-family: sans-serif;
+    background-color: rgb(138, 138, 138);
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.highlight {
+    color: #F1C40F ;
+ }
+
+ .gradient {
+    background: linear-gradient(300deg,#00faff,#ff00bd);
+    background-size: 120% 120%;
+    animation: gradient-animation 20s ease infinite;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  button {
+    flex: 1;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid black;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: black;
+    transition: 0.3s ease;
+  }
+
+.spacer {
+    margin:2% 0;
+}
+
+div#names {
+    display: block;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+}
+
+  .show {
+    opacity: 1;
+    transition: 0.5s ease;
+  }
+
+  .hide {
+    opacity: 0;
+    transition: 0.5s ease;
+  }

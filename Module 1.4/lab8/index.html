@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body onload="changeColor()">
+
+    <div class="main">
+
+        <h1 id="hi">Hello World!</h1>
+
+        <div class="button__wrap">
+            <button class="btnShow" onclick="show()">show</button>
+            <button class="btnHide" onclick="hide()">hide</button>
+        </div>
+
+        <div class="dropdown--wrap">
+            <label for="customerDropdown">Select a customer:</label>
+            <select id="customerDropdown"></select>
+        </div>
+
+        <table border="1">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <!-- Add more columns as needed -->
+            </tr>
+            </thead>
+            <tbody id="customerTableBody"></tbody>
+        </table>
+
+    </div>
+
+    <script defer src="app.js"></script>
+
+</body>
+</html>
