@@ -1,34 +1,34 @@
 body {
-    height: 250vh;
-    font-family: sans-serif;
-    background-color: rgb(138, 138, 138);
+  height: 250vh;
+  font-family: sans-serif;
+  background-color: rgb(138, 138, 138);
 }
 
 main {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .highlight {
-    color: #F1C40F ;
- }
+  color: #F1C40F ;
+}
 
- .gradient {
-    background: linear-gradient(300deg,#00faff,#ff00bd);
-    background-size: 120% 120%;
-    animation: gradient-animation 20s ease infinite;
-  }
+.gradient {
+  background: linear-gradient(300deg,#00faff,#ff00bd);
+  background-size: 120% 120%;
+  animation: gradient-animation 20s ease infinite;
+}
 
-  h1 {
-    font-family: sans-serif;
-    text-align: center;
-  }
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
 
-  .wrap {
-    display: block;
-    position: relative;
-    width: 100%;
-  }
+.wrap {
+  display: block;
+  position: relative;
+  width: 100%;
+}
 
 .spacer {
     margin:2% 0;
@@ -69,7 +69,8 @@ button {
 }
 
 input[type="submit"]:hover,
-button:hover {
+button:hover,
+.blacklight {
   color: white;
   background-color: black;
   transition: 0.3s ease;
@@ -82,12 +83,20 @@ div#names {
     width: 100%;
 }
 
-  .show {
-    opacity: 1;
-    transition: 0.5s ease;
-  }
+li {
+  text-align: center;
+  text-transform: uppercase;
+}
+li.blacklight::marker {
+  background-color: black;
+}
 
-  .hide {
-    opacity: 0;
-    transition: 0.5s ease;
-  }
+.show {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.hide {
+  opacity: 0;
+  transition: 0.5s ease;
+}
