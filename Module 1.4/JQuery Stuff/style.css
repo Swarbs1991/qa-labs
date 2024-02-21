@@ -100,3 +100,8 @@ li.blacklight::marker {
   opacity: 0;
   transition: 0.5s ease;
 }
+
+footer{
+  display:flex;
+  justify-content: center;
+}
