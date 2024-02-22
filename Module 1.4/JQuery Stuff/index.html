@@ -8,10 +8,24 @@
     <script src="script1.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="jq1.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
+
 </head>
-<body onload="changeColour()">
+<body onload="">
     <main>
+        <div class="color-change"></div>
+
         <h1>Hello World!</h1>
+
+        <div class="color-change">
+            <h3>Change colours</h3>
+            <div class="btn--wrap">
+                <button class="btn colour1" onclick="changeColourPink()">Pink-ish</button>
+                <button class="btn colour2" onclick="changeColourGreen()">Green-ish</button>
+                <button id="colorPickerBtn" class="btn">Pick a Color</button>
+            </div>
+        </div>
 
         <div class="wrap">
 

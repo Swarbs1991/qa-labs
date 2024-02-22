@@ -13,15 +13,25 @@ main {
   color: #F1C40F ;
 }
 
-.gradient {
+.gradient-pink {
   background: linear-gradient(300deg,#00faff,#ff00bd);
   background-size: 120% 120%;
   animation: gradient-animation 20s ease infinite;
 }
 
-h1 {
+.gradient-green {
+  background: linear-gradient(300deg,#00faff,#88ff63);
+  background-size: 120% 120%;
+  animation: gradient-animation 20s ease infinite;
+}
+
+h1, h3 {
   font-family: sans-serif;
   text-align: center;
+}
+
+h3 {
+  margin-bottom: 1%;
 }
 
 .wrap {
@@ -34,7 +44,8 @@ h1 {
     margin:2% 0;
 }
 
-form {
+form,
+.btn--wrap {
   display: inline-flex;
   flex-direction: row;
   width: 100%;
