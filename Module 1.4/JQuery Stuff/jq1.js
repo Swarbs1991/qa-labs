@@ -8,6 +8,8 @@ $(function () {
         // Use jQuery to append the new name to the "names" div
         $('#names ol').append('<li>' + userName + '</li>')
 
+        $("li:nth-child(even)").addClass('highlight'); 
+
         // Return false to prevent the form from submitting
         return false;
     }
