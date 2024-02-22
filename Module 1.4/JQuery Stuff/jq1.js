@@ -32,5 +32,4 @@ $(function () {
         // Update the currentIndex for the next click
         currentIndex = (currentIndex + 1) % $('#names ol li').length;
     });
-
 });
