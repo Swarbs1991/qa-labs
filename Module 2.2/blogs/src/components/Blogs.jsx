@@ -24,7 +24,7 @@ const Blogs = () => {
                     setBlogs(data);
                     setError(null);
                     setIsLoading(false);
-                }, 5000)
+                }, 1000)
             }).catch( err => {
                 setError(err.message);
             });
