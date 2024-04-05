@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QA</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
+    <style>
+        #loading {
+            display: none;
+        }
+    </style>
+    <script>
+        var myModule = angular.module("myModule", []);
+        var myController = function ($scope, $http) {
+
+            $scope.customers = [];
+            $scope.loading = false;
+
+            $scope.doClick = function () {
+                $scope.loading = true; // Show loading GIF
+
+                $http({
+                    method: "GET",
+                    url: 'https://txmike2.glitch.me/customers'
+                }).then(function (response) {
+                    $scope.customers = response.data;
+                    $scope.loading = false; // Hide loading GIF when data is received
+                }, function (reason) {
+                    $scope.error = "Unable to get the data";
+                    $scope.loading = false; // Hide loading GIF on error
+                    console.log(reason.status + ',' + reason.statusText);
+                });
+            }
+        }
+        myModule.controller("myController", myController);
+    </script>
+</head>
+
+<body ng-app="myModule" ng-controller="myController">
+    <h3 ng-hide="customers.length == 0">QA Customers</h3>
+    <div ng-hide="error == null">{{error}}</div>
+    
+    <!-- Loading GIF -->
+    <div id="loading" ng-show="loading">
+        <img src="loading.gif" width="200" />
+    </div>
+    
+    <button ng-click="doClick()" type="submit">Get customers</button>
+
+    <!-- Results -->
+    <div class="results" ng-show="customers.length > 0">
+        <table>
+            <tr ng-repeat="cus in customers">
+                <td>{{cus.ContactName}}</td>
+                <td>{{cus.City}}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -25,7 +25,7 @@ main {
   animation: gradient-animation 20s ease infinite;
 }
 
-h1, h3 {
+h1, h2, h3 {
   font-family: sans-serif;
   text-align: center;
 }

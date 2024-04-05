@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="jq1.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <main>
+        <div class="wrap">
+            <h1>JQuery Events Demo</h1>
+
+            <div class="color-change">
+                <h3>Change backgorund colour</h3>
+                <div class="btn--wrap">
+                    <button class="btn colour1" onclick="changeColourPink()">Pink-ish</button>
+                    <button class="btn colour2" onclick="changeColourGreen()">Green-ish</button>
+                    <button id="colorPickerBtn" class="btn">Pick a Color</button>
+                </div>
+            </div>
+
+            <button class="btn get" onclick="getCustomers()">Get data</button>
+
+            <div id="data" class="wrapp">
+                <table id="customersTable"></table>
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+</html>
