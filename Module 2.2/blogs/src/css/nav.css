@@ -1,0 +1,20 @@
+nav {
+    background-color: #141b3f;
+}
+
+nav ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: white;
+    font-weight: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
