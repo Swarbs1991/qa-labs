@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery collaborative demos</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="jq1.js" defer></script>
+    <script src="jq2.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
+
+</head>
+<body>
+    <main>
+        <div class="color-change"></div>
+
+        <h1>Hello World!</h1>
+
+        <h2>This is an ongoing collaborative demo</h2>
+
+        <div class="color-change">
+            <h3>Change colours</h3>
+            <div class="btn--wrap">
+                <button class="btn colour1" onclick="changeColourPink()">Pink-ish</button>
+                <button class="btn colour2" onclick="changeColourGreen()">Green-ish</button>
+                <button id="colorPickerBtn" class="btn">Pick a Color</button>
+            </div>
+        </div>
+
+        <div class="wrap">
+
+            <div class="spacer"></div>
+
+            <form action="">
+                <label for="userName">Name:</label>
+                <input type="text" id="userName" name="userName" placeholder="Your Name" required>
+                <input type="submit" value="Submit">
+            </form>
+
+            <button class="btn show-hide">Show/Hide</button>
+
+            <button class="btn blackout">Blacklight</button>
+
+            <div id="names">
+                <ol></ol>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
