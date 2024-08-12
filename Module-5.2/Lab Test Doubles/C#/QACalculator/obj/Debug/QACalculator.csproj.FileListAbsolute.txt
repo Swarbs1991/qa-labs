@@ -1,0 +1,6 @@
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculator\bin\Debug\QACalculator.dll
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculator\bin\Debug\QACalculator.pdb
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculator\obj\Debug\QACalculator.csproj.AssemblyReference.cache
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculator\obj\Debug\QACalculator.csproj.CoreCompileInputs.cache
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculator\obj\Debug\QACalculator.dll
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculator\obj\Debug\QACalculator.pdb

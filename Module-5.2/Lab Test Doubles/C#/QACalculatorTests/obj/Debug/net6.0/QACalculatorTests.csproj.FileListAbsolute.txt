@@ -1,0 +1,5 @@
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculatorTests\obj\Debug\net6.0\QACalculatorTests.csproj.AssemblyReference.cache
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculatorTests\obj\Debug\net6.0\QACalculatorTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculatorTests\obj\Debug\net6.0\QACalculatorTests.AssemblyInfoInputs.cache
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculatorTests\obj\Debug\net6.0\QACalculatorTests.AssemblyInfo.cs
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculatorTests\obj\Debug\net6.0\QACalculatorTests.csproj.CoreCompileInputs.cache

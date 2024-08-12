@@ -1,0 +1,2 @@
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculatorTests\obj\Debug\QACalculatorTests.csproj.AssemblyReference.cache
+C:\Users\jswar\Projects\qa-labs\Module-5.2\Lab Test Doubles\C#\QACalculatorTests\obj\Debug\QACalculatorTests.csproj.CoreCompileInputs.cache

@@ -1,0 +1,13 @@
+Mocha Documentation: Official documentation for Mocha, including setup, usage, and examples.
+https://mochajs.org/api/mocha
+
+Chai Documentation: Official documentation for Chai, detailing different assertion styles and usage.
+https://www.chaijs.com/
+
+MDN Web Docs on ES Modules: Comprehensive guide on how to use JavaScript modules, including syntax and examples.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+
+Tutorials and Guides
+Mocha Testing Tutorial: A practical tutorial on setting up and using Mocha and Chai for testing.
+https://www.lambdatest.com/mocha-js

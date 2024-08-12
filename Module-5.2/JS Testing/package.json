@@ -1,0 +1,31 @@
+{
+  "name": "js-testing",
+  "version": "1.0.0",
+  "description": "Just a start",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "nyc": "^17.0.0"
+  },
+  "nyc": {
+    "all": true,
+    "include": [
+      "calculator.js"
+    ],
+    "reporter": [
+      "text",
+      "html"
+    ],
+    "exclude": [
+      "test"
+    ]
+  }
+}
