@@ -1,0 +1,18 @@
+Modular - I think to summarise, Mike is trying to describe how to design modular, interchangeable programs to interface with each other by thinking of them as different domains and to operate independently, but together when needed.
+
+This can be more easily split up in terms of work responsibility.
+
+Focus on 'problem' domain - This is the business reason
+Ubiquitous language - simplify to get points across
+Bounded contexts - Not too sure about this one...
+Entities: Value objects/Aggregates
+Repos
+Domain events - keep it simple, like calls I think...
+Continuous refinement - Refine, update, integrate different parts without taking all services down.
+
+Drawbacks - Complexity, different language and distributions, locations etc.
+
+
+Netflix, Amazon, Spotify, Uber
+
+Customer, Booking - Flight, Booking - Hotel, Booking - Transport, Search, Pay, Location, Support, Monitoring, Customer - Portal, Business - Portal, Notifications, Encryption, Loyalty program, Analytics.
